@@ -1,0 +1,55 @@
+{
+  "categories": [
+    "crab",
+    "fish",
+    "jellyfish",
+    "shark"
+  ],
+  "species_per_category": {
+    "crab": [
+      "blue_crab",
+      "coconut_crab",
+      "king_crab",
+      "mud_crab",
+      "stone_crab",
+      "vampire_crab"
+    ],
+    "fish": [
+      "black_sea_sprat",
+      "gilt-head_bream",
+      "gilt_head_bream",
+      "horse_mackerel",
+      "hourse_mackerel",
+      "red_mullet",
+      "red_sea_bream",
+      "sea_bass",
+      "shrimp",
+      "striped_red_mullet",
+      "trout"
+    ],
+    "jellyfish": [
+      "barrel_jellyfish",
+      "blue_jellyfish",
+      "compass_jellyfish",
+      "lions_mane_jellyfish",
+      "mauve_stinger_jellyfish",
+      "moon_jellyfish"
+    ],
+    "shark": [
+      "basking",
+      "blacktip",
+      "blue",
+      "bull",
+      "hammerhead",
+      "lemon",
+      "mako",
+      "nurse",
+      "sand_tiger",
+      "thresher",
+      "tiger",
+      "whale",
+      "white",
+      "whitetip"
+    ]
+  }
+}
