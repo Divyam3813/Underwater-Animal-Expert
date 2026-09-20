@@ -1,8 +1,0 @@
-streamlit
-numpy
-opencv-python-headless
-pandas
-Pillow
-torch
-torchvision
-google-genai
