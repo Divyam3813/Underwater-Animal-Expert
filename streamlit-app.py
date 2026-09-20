@@ -1,8 +1,3 @@
-# Generated from: streamlit-app.ipynb
-# Converted at: 2026-09-20T13:37:12.585Z
-# Next step (optional): refactor into modules & generate tests with RunCell
-# Quick start: pip install runcell
-
 # # Underwater animal classifier (fish / shark / crab / jellyfish)
 # Two stage model: EfficientNetV2-S predicts the **category** first, then a species head for that category predicts the **species**.
 # 
@@ -12,7 +7,15 @@
 # - `EPOCHS = 100` but early stopping is ON, so training stops by itself if validation stops improving (this is what protects from overfitting). Set `EARLY_STOPPING = False` if you really want all 100 epochs.
 # - The model is saved after every epoch, so you never have to train again. Set `TRAIN_MODEL = False` to just load it.
 # 
+import gdown
+import os
 
+# Download best_model.pt from Google Drive if it doesn't exist locally
+model_path = 'best_model.pt'
+if not os.path.exists(model_path):
+    file_id = '1zkUCmBHRJqPHyygGb_DeECwhrXxALOXX'
+    url = f'https://drive.google.com/uc?id={file_id}'
+    gdown.download(url, model_path, quiet=False)
 
 # only run this if torch / torchvision throws errors, then restart the session
 # !pip install -q --upgrade torch torchvision sympy
