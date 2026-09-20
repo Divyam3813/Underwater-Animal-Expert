@@ -462,12 +462,12 @@ Upload Image
 
 Underwater environments contain an enormous variety of marine life, but identifying species manually from images can be difficult and time-consuming.
 
-**Underwater Animal Expert** combines computer vision, deep learning, and generative AI into a single interactive platform for exploring underwater biodiversity.
+**Underwater Animal Expert** combines image processing, deep learning, and generative AI into a single interactive platform for exploring underwater biodiversity.
 
 The project demonstrates how multiple AI technologies can work together:
 
 ```text
-Computer Vision
+Image Processing
        +
 Deep Learning
        +
@@ -492,7 +492,7 @@ Interested in:
 * 🤖 Artificial Intelligence
 * 🧠 Machine Learning
 * 📊 Data Science
-* 👁️ Computer Vision
+* 👁️ Image Processing
 * 🗣️ NLP
 * 🤖 Generative AI
 
