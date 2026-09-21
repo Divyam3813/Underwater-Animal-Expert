@@ -1,6 +1,6 @@
 # 🌊 Underwater Animal Expert
 
-> **An AI-powered underwater animal classification and identification system built with Deep Learning, Computer Vision, and Generative AI.**
+> **An AI-powered underwater animal classification and identification system built with Deep Learning, Image Processing, and Generative AI.**
 
 ## 🚀 Live Demo
 
